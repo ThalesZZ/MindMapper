@@ -1,0 +1,15 @@
+/home/zarzar/dev projects/MindMapper/bin/Debug/net6.0/MindMapper
+/home/zarzar/dev projects/MindMapper/bin/Debug/net6.0/MindMapper.deps.json
+/home/zarzar/dev projects/MindMapper/bin/Debug/net6.0/MindMapper.runtimeconfig.json
+/home/zarzar/dev projects/MindMapper/bin/Debug/net6.0/MindMapper.dll
+/home/zarzar/dev projects/MindMapper/bin/Debug/net6.0/MindMapper.pdb
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/MindMapper.csproj.AssemblyReference.cache
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/MindMapper.GeneratedMSBuildEditorConfig.editorconfig
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/MindMapper.AssemblyInfoInputs.cache
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/MindMapper.AssemblyInfo.cs
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/MindMapper.csproj.CoreCompileInputs.cache
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/MindMapper.dll
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/refint/MindMapper.dll
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/MindMapper.pdb
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/MindMapper.genruntimeconfig.cache
+/home/zarzar/dev projects/MindMapper/obj/Debug/net6.0/ref/MindMapper.dll
