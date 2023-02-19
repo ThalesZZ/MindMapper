@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+using System;
+
+var node = new Node(1, "my node");
+
+Console.WriteLine(node);
