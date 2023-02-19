@@ -1,3 +1,5 @@
+using System;
+
 public class Edge : Entity {
     public Node Source { get; set; }
     public Node Target { get; set; }
@@ -5,6 +7,9 @@ public class Edge : Entity {
     public Edge(int Id, Node Source, Node Target) : base(Id) {
         this.Source = Source;
         this.Target = Target;
+    }
+
+    public override void Validate() {
     }
 
 }

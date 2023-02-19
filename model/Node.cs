@@ -1,3 +1,5 @@
+using System;
+
 public class Node : Entity {
     public string Name { get; set; }
 
@@ -5,4 +7,6 @@ public class Node : Entity {
         this.Name = Name;
     }
 
+    public override void Validate() {
+    }
 }
