@@ -1,14 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+
 public abstract class Entity {
 
-    private int id;
+    public int Id { get; set; }
 
-    public Entity(int id) {
-        this.id = id;
+    public Entity(int Id) {
+        this.Id = Id;
     }
 
-    public int Id {
-        get { return id; }
-        set { id = value; }
+    public override string ToString() {
+        List<string> values = new List<string>();
+
+        Type clazz = typeof(Node);
+        PropertyInfo[] attribs = clazz.GetProperties();
+        foreach(PropertyInfo attrib in attribs)
+            values.Add($"{attrib.Name}({attrib.PropertyType.Name}) = {attrib.GetValue(this)}");
+
+        return $"Node @ {String.Join("; ", values)}";
     }
 
 }
