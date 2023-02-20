@@ -1,5 +1,3 @@
-using System;
-
 public class Edge : Entity {
     public Node Source { get; set; }
     public Node Target { get; set; }
@@ -9,7 +7,8 @@ public class Edge : Entity {
         this.Target = Target;
     }
 
-    public override void Validate() {
+    public override string ToString() {
+        return $"e{this.Id}";
     }
 
 }

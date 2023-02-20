@@ -11,8 +11,6 @@ public abstract class Entity {
         this.Id = Id;
     }
 
-    public abstract void Validate();
-
     public override string ToString() {
         List<string> values = new List<string>();
 
@@ -21,7 +19,7 @@ public abstract class Entity {
         foreach(PropertyInfo attrib in attribs)
             values.Add($"{attrib.Name}({attrib.PropertyType.Name}) = {attrib.GetValue(this)}");
 
-        return $"Node @ {String.Join("; ", values)}";
+        return $"Entity @ {String.Join("; ", values)}";
     }
 
 }
